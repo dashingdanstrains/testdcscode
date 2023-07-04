@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+
+dependencies {
+    implementation group: 'org.jmdns', name: 'jmdns', version: '3.5.8'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+}
